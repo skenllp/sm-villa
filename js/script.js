@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const attendYesRadio = document.getElementById('attend-yes');
   const attendNoRadio = document.getElementById('attend-no');
 
-  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyl3DU0U9NsTQP9PsT6k6moxsILW3khktsav5vpjBVRx35SJSy0SlIn06fc_Nd26N8/exec";
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwGLGCfrEdI6VfM0BSD4K-38uKT1ilK3tE2t4tUhujtIIgpX4pXo5glknxCAWGQfPTM/exec";
 
   if (attendYesRadio && attendNoRadio) {
     attendYesRadio.addEventListener('change', () => {
